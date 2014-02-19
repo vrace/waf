@@ -1,0 +1,20 @@
+WANE'S ARCHIVE FILE LIBRARY
+
+Wane's Archive File Library is a tiny yet useful library for game developers to
+store small files into a big file, which reduces disk cost. Disk cost is
+important for some hand held devices.
+
+Main features of the library are:
+- Random access within the archive
+- Changable compression method (default zlib)
+
+This library consists of two component, the creator and the content reader. The
+creator can be used to collect and compress files, while the content reader is
+used to read file within the output archive.
+
+All functions of the library are documented in the wafexpc.h. A usage example
+of the library is given in the Demo directory.
+
+The files are organized with Visual Studio 2005. However, the files are simple
+enough that everyone can reconstruct a project/makefile without any problem.
+
